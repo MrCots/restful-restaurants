@@ -60,3 +60,12 @@ frontend/
 - Joining data from two collections by a shared key (`restaurantId`)
 - Mutating an array item in place with `.find()` versus rebuilding an array with `.filter()`
 - Choosing status codes the front-end expects, and returning response shapes that match the other routes
+
+  ## EXTRA
+
+  If you want to keep going or improving this project, there are two options:
+
+Step 14 challenge: add a route of your own, for example GET /restaurants/starred/count that returns how many restaurants are starred. Try it without my skeleton.
+Next project: replace the in-memory arrays with a real database like SQLite or MongoDB, so data survives a server restart.
+
+
